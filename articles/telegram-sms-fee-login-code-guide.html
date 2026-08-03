@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TG短信收费是怎么回事？Telegram SMS Fee与+86收不到验证码解决方法</title>
+
+  <meta
+    name="description"
+    content="登录Telegram时出现SMS Fee、短信收费或+86手机号收不到验证码怎么办？本文详细讲解TG短信收费的原因、Telegram验证码发送位置，以及安全实用的排查方法。"
+  >
+
+  <meta
+    name="keywords"
+    content="TG短信收费,Telegram SMS Fee,Telegram短信收费,+86收不到Telegram验证码,Telegram收不到验证码,纸飞机验证码收不到,TG登录验证码,High SMS Costs"
+  >
+
+  <meta name="author" content="goufox-membership-guide">
+  <meta name="robots" content="index, follow">
+
+  <link
+    rel="canonical"
+    href="https://lilachdvora38-ui.github.io/goufox-membership-guide/articles/telegram-sms-fee-login-code-guide.html"
+  >
+
+  <meta property="og:type" content="article">
+  <meta
+    property="og:title"
+    content="TG短信收费是怎么回事？Telegram SMS Fee与+86收不到验证码解决方法"
+  >
+  <meta
+    property="og:description"
+    content="遇到Telegram SMS Fee、+86收不到验证码或登录验证失败？本文讲清原因，并提供实用排查步骤。"
+  >
+  <meta
+    property="og:url"
+    content="https://lilachdvora38-ui.github.io/goufox-membership-guide/articles/telegram-sms-fee-login-code-guide.html"
+  >
+  <meta property="og:locale" content="zh_CN">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "TG短信收费是怎么回事？Telegram SMS Fee与+86收不到验证码解决方法",
+    "description": "讲解Telegram SMS Fee、TG短信收费、+86收不到验证码的常见原因和排查方法。",
+    "inLanguage": "zh-CN",
+    "datePublished": "2026-08-03",
+    "dateModified": "2026-08-03",
+    "author": {
+      "@type": "Organization",
+      "name": "goufox-membership-guide"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "goufox-membership-guide"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://lilachdvora38-ui.github.io/goufox-membership-guide/articles/telegram-sms-fee-login-code-guide.html"
+    }
+  }
+  </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f5f7fa;
+      color: #263238;
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "PingFang SC",
+        "Microsoft YaHei",
+        Arial,
+        sans-serif;
+      font-size: 17px;
+      line-height: 1.9;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 860px;
+      margin: 32px auto;
+      padding: 0 18px;
+    }
+
+    article {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 48px 52px;
+      box-shadow: 0 8px 30px rgba(27, 45, 73, 0.08);
+    }
+
+    .breadcrumb {
+      margin-bottom: 22px;
+      color: #78909c;
+      font-size: 14px;
+    }
+
+    .breadcrumb a {
+      color: #168acd;
+      text-decoration: none;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      color: #102a43;
+      font-size: 34px;
+      line-height: 1.4;
+      letter-spacing: -0.5px;
+    }
+
+    .summary {
+      margin: 22px 0 32px;
+      padding: 20px 22px;
+      background: #eef8ff;
+      border-left: 5px solid #229ed9;
+      border-radius: 8px;
+      color: #334e68;
+    }
+
+    .meta {
+      margin-bottom: 28px;
+      color: #90a4ae;
+      font-size: 14px;
+    }
+
+    h2 {
+      margin-top: 42px;
+      margin-bottom: 16px;
+      padding-left: 13px;
+      border-left: 5px solid #229ed9;
+      color: #17324d;
+      font-size: 25px;
+      line-height: 1.5;
+    }
+
+    h3 {
+      margin-top: 28px;
+      margin-bottom: 10px;
+      color: #1f4b6e;
+      font-size: 20px;
+    }
+
+    p {
+      margin: 14px 0;
+    }
+
+    ul,
+    ol {
+      padding-left: 26px;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    strong {
+      color: #153e5c;
+    }
+
+    .warning {
+      margin: 24px 0;
+      padding: 18px 20px;
+      background: #fff8e8;
+      border: 1px solid #f4d58d;
+      border-radius: 10px;
+    }
+
+    .steps {
+      margin: 25px 0;
+      padding: 4px 22px 18px;
+      background: #f7fafc;
+      border: 1px solid #e5edf3;
+      border-radius: 12px;
+    }
+
+    .faq {
+      margin: 22px 0;
+      padding: 20px 22px;
+      background: #fafcfd;
+      border: 1px solid #e4ebf0;
+      border-radius: 10px;
+    }
+
+    .faq h3 {
+      margin-top: 0;
+    }
+
+    .site-note {
+      margin: 28px 0;
+      padding: 18px 20px;
+      background: #f0f9ff;
+      border-radius: 10px;
+    }
+
+    .site-note a {
+      color: #087db8;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .sources {
+      margin-top: 42px;
+      padding-top: 24px;
+      border-top: 1px solid #e5e7eb;
+      color: #607d8b;
+      font-size: 15px;
+    }
+
+    .sources a {
+      color: #168acd;
+      word-break: break-all;
+    }
+
+    .back-home {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 11px 18px;
+      background: #229ed9;
+      border-radius: 8px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    footer {
+      padding: 25px 5px;
+      color: #90a4ae;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 680px) {
+      .page {
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      article {
+        padding: 30px 20px;
+        border-radius: 0;
+        box-shadow: none;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        margin-top: 34px;
+        font-size: 22px;
+      }
+
+      h3 {
+        font-size: 19px;
+      }
+
+      body {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <article>
+      <nav class="breadcrumb" aria-label="面包屑导航">
+        <a href="../index.html">首页</a>
+        <span> / </span>
+        <span>Telegram使用指南</span>
+      </nav>
+
+      <header>
+        <h1>TG短信收费是怎么回事？Telegram SMS Fee与+86收不到验证码解决方法</h1>
+
+        <div class="meta">
+          发布时间：2026年8月3日 · Telegram登录问题排查
+        </div>
+
+        <div class="summary">
+          登录Telegram时出现SMS Fee、High SMS Costs或短信收费提示，
+          通常不等于账号被封。本文用大白话说明TG短信收费的含义，
+          并整理+86手机号收不到Telegram验证码时可以依次检查的项目。
+        </div>
+      </header>
+
+      <section>
+        <p>
+          最近，一些用户在注册或登录Telegram时，会突然看到
+          <strong>SMS Fee、High SMS Costs、短信费用较高</strong>
+          等提示。
+        </p>
+
+        <p>
+          还有一些用户输入中国大陆+86手机号后，迟迟收不到短信验证码，
+          反复点击发送后仍然无法登录。
+        </p>
+
+        <p>
+          那么，<strong>TG短信收费是怎么回事？Telegram SMS Fee必须支付吗？
+          +86收不到Telegram验证码又该怎样排查？</strong>
+          下面把容易混淆的问题一次讲清楚。
+        </p>
+      </section>
+
+      <section>
+        <h2>一、TG短信收费是什么意思？</h2>
+
+        <p>
+          TG短信收费一般是指Telegram在注册或登录验证过程中，
+          没有直接免费发送普通短信验证码，而是出现需要承担短信验证成本的提示。
+        </p>
+
+        <p>常见页面文字包括：</p>
+
+        <ul>
+          <li>SMS Fee</li>
+          <li>High SMS Costs</li>
+          <li>Sign-up Fee</li>
+          <li>Telegram Premium支持短信费用</li>
+          <li>短信成本较高或需要支付验证费用</li>
+        </ul>
+
+        <p>
+          Telegram官方翻译页面中的相关文案提到，
+          部分地区可能因为虚假账号较多以及短信发送成本较高，
+          在注册环节出现需要承担费用的提示。
+        </p>
+
+        <div class="warning">
+          <strong>需要注意：</strong>
+          出现SMS Fee并不能直接说明账号被封，
+          它与“手机号已被Telegram禁止使用”不是同一种提示。
+        </div>
+      </section>
+
+      <section>
+        <h2>二、Telegram验证码为什么没有发到手机短信？</h2>
+
+        <h3>1. 验证码可能发到了其他已登录设备</h3>
+
+        <p>
+          如果这个Telegram账号之前在旧手机、电脑端或网页版上登录过，
+          登录验证码可能会优先发送到已经登录的Telegram客户端，
+          而不是发送普通手机短信。
+        </p>
+
+        <p>可以依次检查：</p>
+
+        <ul>
+          <li>旧手机上的Telegram；</li>
+          <li>Telegram Desktop电脑客户端；</li>
+          <li>Telegram Web网页版；</li>
+          <li>聊天列表中带有官方认证标识的“Telegram”会话。</li>
+        </ul>
+
+        <p>
+          很多“Telegram验证码收不到”的情况，
+          实际上是验证码已经发到了其他设备，只是用户一直在手机短信里查找。
+        </p>
+
+        <h3>2. 短时间请求验证码次数过多</h3>
+
+        <p>
+          Telegram官方接口文档中存在
+          <strong>PHONE_NUMBER_FLOOD</strong>
+          和
+          <strong>PHONE_PASSWORD_FLOOD</strong>
+          等错误类型，分别与验证码请求次数过多或登录尝试过多有关。
+        </p>
+
+        <p>
+          因此，连续点击“重新发送验证码”通常不会让短信来得更快，
+          反而可能触发临时限制。
+        </p>
+
+        <h3>3. 手机号格式填写不正确</h3>
+
+        <p>
+          Telegram官方FAQ要求手机号按照国际格式填写。
+          使用中国大陆手机号时，应先选择国家或地区代码
+          <strong>+86</strong>，然后填写11位手机号。
+        </p>
+
+        <p>例如：</p>
+
+        <ul>
+          <li>国家或地区代码：+86</li>
+          <li>手机号：13812345678</li>
+        </ul>
+
+        <p>
+          不要在号码栏中再次输入+86，
+          也不要在手机号前面额外添加数字0。
+        </p>
+
+        <h3>4. 当前验证方式不是普通短信</h3>
+
+        <p>
+          Telegram的登录验证方式并不只有短信一种。
+          根据账号和登录状态不同，验证码可能通过已登录客户端、
+          短信、邮箱或其他官方验证流程发送。
+        </p>
+
+        <p>
+          因此，页面没有马上出现短信输入框，
+          不一定代表系统发生故障。
+        </p>
+      </section>
+
+      <section>
+        <h2>三、+86收不到Telegram验证码怎么办？</h2>
+
+        <div class="steps">
+          <h3>第一步：检查其他登录设备</h3>
+          <p>
+            先打开旧手机、电脑端和网页版Telegram，
+            查看官方“Telegram”会话中是否已经收到登录验证码。
+          </p>
+
+          <h3>第二步：停止连续请求</h3>
+          <p>
+            如果已经点击多次“重新发送”，先暂停操作。
+            不要同时在多台设备上反复请求同一个手机号的验证码。
+          </p>
+
+          <h3>第三步：核对手机号格式</h3>
+          <p>
+            确认国家代码选择的是+86，
+            号码栏中只填写正常的11位中国大陆手机号。
+          </p>
+
+          <h3>第四步：保持设备和网络稳定</h3>
+          <p>
+            排查期间尽量使用同一台设备和相对稳定的网络，
+            不要频繁切换设备、网络环境或客户端版本，
+            避免增加新的登录变量。
+          </p>
+
+          <h3>第五步：确认使用官方客户端</h3>
+          <p>
+            尽量通过Telegram官方网站或正规应用商店安装客户端。
+            不要在来源不明的网页中输入登录验证码、账号密码或支付信息。
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>四、出现Telegram SMS Fee后应该直接支付吗？</h2>
+
+        <p>
+          看到SMS Fee后，先不要急着操作，
+          应先确认当前页面是否来自Telegram官方客户端，
+          并检查账号是否还有其他接收验证码的方式。
+        </p>
+
+        <p>
+          如果验证码已经发送到其他登录设备，
+          通常应优先使用设备内收到的官方验证码。
+        </p>
+
+        <p>
+          如果页面来自陌生网站、聊天联系人或非官方应用，
+          不要填写验证码，更不要向陌生人发送验证码截图。
+        </p>
+
+        <div class="warning">
+          Telegram登录验证码相当于账号登录凭证。
+          任何以“帮你解除SMS Fee”或“代查账号状态”为理由索要验证码的人，
+          都需要谨慎对待。
+        </div>
+      </section>
+
+      <section>
+        <h2>五、TG短信收费是不是账号被封？</h2>
+
+        <p>
+          通常不能仅凭SMS Fee判断账号被封。
+        </p>
+
+        <p>
+          Telegram官方接口对号码被禁止、号码格式错误、
+          请求次数过多和短信验证码创建失败分别设置了不同的错误类型。
+          这说明“短信收费”“请求过多”和“号码被禁止”属于不同情况。
+        </p>
+
+        <p>
+          如果页面只显示SMS Fee或High SMS Costs，
+          更适合先从验证码发送方式、请求次数和号码格式等方面排查，
+          而不是直接认定账号已经被封。
+        </p>
+
+        <div class="site-note">
+          如果自己排查后仍然分不清属于SMS Fee、验证码发送异常，
+          还是号码登录问题，也可以在
+          <a href="https://goufox.com/" rel="noopener">闪购狐</a>
+          查看相关问题说明，先确认具体提示类型，再决定下一步怎么处理。
+        </div>
+      </section>
+
+      <section>
+        <h2>六、常见问题解答</h2>
+
+        <div class="faq">
+          <h3>Telegram短信收费是每次登录都要付吗？</h3>
+          <p>
+            不一定。SMS Fee通常与当时的注册或验证流程有关，
+            不代表以后每一次登录都会出现相同提示。
+          </p>
+        </div>
+
+        <div class="faq">
+          <h3>+86手机号还能注册Telegram吗？</h3>
+          <p>
+            是否可以完成注册，应以Telegram当前实际显示的验证方式为准。
+            并不是所有+86手机号都会出现SMS Fee，
+            也不能仅凭国家代码判断一定可以或一定不可以注册。
+          </p>
+        </div>
+
+        <div class="faq">
+          <h3>为什么Telegram验证码发到了旧手机？</h3>
+          <p>
+            如果账号之前已经在其他设备登录，
+            Telegram可能优先通过应用内官方会话发送登录验证码，
+            而不是发送短信。
+          </p>
+        </div>
+
+        <div class="faq">
+          <h3>反复获取验证码有用吗？</h3>
+          <p>
+            不建议连续请求。请求次数过多可能触发临时限制，
+            最好先检查其他设备和号码格式，再等待后重新尝试。
+          </p>
+        </div>
+
+        <div class="faq">
+          <h3>SMS Fee出现后账号还能正常使用吗？</h3>
+          <p>
+            如果账号本身没有受到其他限制，
+            SMS Fee主要影响当前注册或登录验证过程，
+            不能直接等同于账号功能异常。
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>七、总结</h2>
+
+        <p>
+          遇到
+          <strong>TG短信收费、Telegram SMS Fee、+86收不到验证码、
+          纸飞机验证码收不到</strong>
+          时，先不要连续点击发送验证码。
+        </p>
+
+        <p>
+          更合理的处理顺序是：
+          先检查其他已登录设备，再核对手机号国际格式，
+          确认客户端来源，并减少重复登录请求。
+        </p>
+
+        <p>
+          SMS Fee并不等于账号被封。
+          把页面上的具体提示看清楚，再针对验证码发送位置、
+          请求次数或号码状态进行排查，通常比盲目切换设备更有效。
+        </p>
+      </section>
+
+      <section class="sources">
+        <h2>参考资料</h2>
+
+        <ul>
+          <li>
+            Telegram官方FAQ：
+            <a
+              href="https://telegram.org/faq"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://telegram.org/faq
+            </a>
+          </li>
+
+          <li>
+            Telegram登录验证码接口说明：
+            <a
+              href="https://core.telegram.org/method/auth.sendCode"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://core.telegram.org/method/auth.sendCode
+            </a>
+          </li>
+
+          <li>
+            Telegram重新发送验证码接口说明：
+            <a
+              href="https://core.telegram.org/method/auth.resendCode"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://core.telegram.org/method/auth.resendCode
+            </a>
+          </li>
+
+          <li>
+            Telegram官方SMS Fee翻译词条：
+            <a
+              href="https://translations.telegram.org/en/ios/unsorted/Login.Fee.SmsCost.Text"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Telegram SMS Fee Text
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <a class="back-home" href="../index.html">返回文章首页</a>
+    </article>
+
+    <footer>
+      本文用于整理Telegram登录和验证码问题的公开排查信息。
+    </footer>
+  </main>
+</body>
+</html>
